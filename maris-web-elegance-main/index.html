@@ -1,0 +1,511 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gloria Alphonsus - CodeWithMaris</title>
+    <meta name="description" content="Crafting elegant web experiences. Full-stack developer specializing in modern web solutions.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">
+                    Crafting elegant
+                    <br>
+                    <span class="accent-text">web experiences</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Powered by coffee, code, and clean design.
+                </p>
+                <button class="cta-button glow-animation" onclick="scrollToContact()">
+                    Send a Message
+                </button>
+            </div>
+            <div class="floating-element floating-1"></div>
+            <div class="floating-element floating-2"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content animate-on-scroll">
+                    <h2 class="section-title">Meet Gloria </h2>
+                    <div class="about-text">
+                        <p>
+                            Known as <span class="highlight">CodeWithMaris</span>, 
+                            I'm a passionate full-stack developer who transforms ideas into elegant digital experiences.
+                        </p>
+                        <p>
+                            With expertise spanning modern web technologies, I craft solutions that are not just 
+                            functional, but beautiful and user-centric. Every line of code is written with 
+                            precision, every design element carefully considered.
+                        </p>
+                        <p>
+                            When I'm not coding, you'll find me exploring the latest web technologies, 
+                            sipping expertly crafted coffee, and continuously learning to stay ahead 
+                            of the digital curve.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="skills-container animate-on-scroll">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-code skill-icon"></i>
+                            <span class="skill-name">Frontend Development</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-database skill-icon"></i>
+                            <span class="skill-name">Backend Development</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-palette skill-icon"></i>
+                            <span class="skill-name">UI/UX Design</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <i class="fas fa-globe skill-icon"></i>
+                            <span class="skill-name">Full-Stack Solutions</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Code That Speaks for Itself</h2>
+                <p class="section-subtitle">
+                    Each project represents a unique challenge solved with creativity, 
+                    technical expertise, and attention to detail.
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card animate-on-scroll" data-delay="0">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop" alt="E-Commerce Platform">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">Modern shopping experience with React, Node.js, and Stripe integration</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Stripe</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </button>
+                            <button class="btn-secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll" data-delay="100">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=300&fit=crop" alt="Restaurant Management System">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Restaurant Management System</h3>
+                        <p class="project-description">Full-stack solution for restaurant operations and customer management</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </button>
+                            <button class="btn-secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll" data-delay="200">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop" alt="Portfolio Website">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">Creative portfolio showcasing modern design and smooth animations</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Framer Motion</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </button>
+                            <button class="btn-secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll" data-delay="300">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop" alt="Task Management App">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">Collaborative workspace for teams with real-time updates</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </button>
+                            <button class="btn-secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll" data-delay="400">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop" alt="Weather Dashboard">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">Beautiful weather app with interactive maps and forecasts</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </button>
+                            <button class="btn-secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate-on-scroll" data-delay="500">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500&h=300&fit=crop" alt="Fitness Tracker">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fitness Tracker</h3>
+                        <p class="project-description">Personal fitness companion with workout plans and progress tracking</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Redux</span>
+                        </div>
+                        <div class="project-buttons">
+                            <button class="btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </button>
+                            <button class="btn-secondary">
+                                <i class="fab fa-github"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">Let's Build Something That Works</h2>
+                <p class="section-subtitle">
+                    From concept to deployment, I deliver comprehensive web solutions 
+                    that drive results and exceed expectations.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll" data-delay="0">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">Website Design & Development</h3>
+                    <p class="service-description">
+                        Custom websites that combine beautiful design with powerful functionality, optimized for all devices and search engines.
+                    </p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>SEO Optimization</li>
+                        <li>Performance Focused</li>
+                        <li>Modern Technologies</li>
+                    </ul>
+                </div>
+
+                <div class="service-card animate-on-scroll" data-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="service-title">E-Commerce Websites</h3>
+                    <p class="service-description">
+                        Complete online stores with secure payment processing, inventory management, and user-friendly shopping experiences.
+                    </p>
+                    <ul class="service-features">
+                        <li>Payment Integration</li>
+                        <li>Inventory Management</li>
+                        <li>Admin Dashboard</li>
+                        <li>Customer Analytics</li>
+                    </ul>
+                </div>
+
+                <div class="service-card animate-on-scroll" data-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3 class="service-title">Custom Web Solutions</h3>
+                    <p class="service-description">
+                        Tailored applications and systems designed specifically for your business needs and workflow requirements.
+                    </p>
+                    <ul class="service-features">
+                        <li>Custom Features</li>
+                        <li>Third-party Integrations</li>
+                        <li>Scalable Architecture</li>
+                        <li>Ongoing Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2 class="section-title">What Clients Say</h2>
+                <p class="section-subtitle">
+                    Real feedback from real clients who trusted me with their digital dreams.
+                </p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll" data-delay="0">
+                    <div class="testimonial-header">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial-content">
+                        "Gloria delivered an exceptional e-commerce platform that exceeded our expectations. Her attention to detail and technical expertise transformed our online presence completely."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face" alt="Sarah Johnson" class="author-avatar">
+                        <div class="author-info">
+                            <h4 class="author-name">Sarah Johnson</h4>
+                            <p class="author-role">CEO, TechStart Solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll" data-delay="150">
+                    <div class="testimonial-header">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial-content">
+                        "The restaurant management system Gloria built has streamlined our operations incredibly. Orders, inventory, staff scheduling - everything works seamlessly together."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face" alt="Michael Chen" class="author-avatar">
+                        <div class="author-info">
+                            <h4 class="author-name">Michael Chen</h4>
+                            <p class="author-role">Restaurant Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll" data-delay="300">
+                    <div class="testimonial-header">
+                        <i class="fas fa-quote-left quote-icon"></i>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="testimonial-content">
+                        "Working with CodeWithMaris was a game-changer for our agency. She created a portfolio website that perfectly captures our creative vision while being incredibly fast and responsive."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="Emily Rodriguez" class="author-avatar">
+                        <div class="author-info">
+                            <h4 class="author-name">Emily Rodriguez</h4>
+                            <p class="author-role">Creative Director</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info animate-on-scroll">
+                    <h2 class="section-title">Let's Create Something Amazing Together</h2>
+                    <p class="contact-description">
+                        Ready to bring your vision to life? I'd love to hear about your project 
+                        and discuss how we can work together to create something extraordinary.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>ugochigloria559@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>+234 90 4580 0083</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp contact-icon"></i>
+                            <span>WhatsApp Available</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container animate-on-scroll">
+                    <form id="contact-form" class="contact-form">
+                        <div class="floating-label">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        
+                        <div class="floating-label">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        
+                        <div class="floating-label">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Project Details</label>
+                        </div>
+                        
+                        <button type="submit" class="cta-button glow-animation">
+                            Send a Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">Gloria Alphonsus</h3>
+                <p class="footer-description">
+                    Crafted with <i class="fas fa-heart" style="color: #ef4444;"></i> 
+                    and <i class="fas fa-coffee" style="color: #AE7F62;"></i> by Gloria 
+                </p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/gloria-alphonsus-b308b7309" class="footer-link">LinkedIn</a>
+                    <a href="https://github.com/marisganev61" class="footer-link">GitHub</a>
+                    <a href="#" class="footer-link">Twitter</a>
+                </div>
+                <p class="footer-copyright">
+                    © 2024 Gloria . All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
